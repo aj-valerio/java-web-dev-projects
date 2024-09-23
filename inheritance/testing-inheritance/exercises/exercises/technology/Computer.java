@@ -1,10 +1,10 @@
 package exercises.technology;
 
 public class Computer {
-    private String deviceName;
+    public String deviceName;
     private final String owner = "AJ";
-    private String make;
-    private String model;
+    public String make;
+    public String model;
 
     public Computer(String aDeviceName, String aMake, String aModel) {
         this.deviceName = aDeviceName;
