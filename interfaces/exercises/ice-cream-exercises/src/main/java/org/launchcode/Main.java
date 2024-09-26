@@ -13,7 +13,7 @@ public class Main {
         Comparator<Flavor> comparator = new FlavorComparator();
 
         ArrayList<Flavor> flavorsSorted = new ArrayList<>;
-        flavorsSorted = flavors.sort(comparator);
+//        flavorsSorted = flavors.sort(comparator);
         // TODO: Use a Comparator class to sort the 'cones' array in increasing order by the 'cost' field.
         Comparator<Cone> comparatorCones = new ConeComparator();
 
